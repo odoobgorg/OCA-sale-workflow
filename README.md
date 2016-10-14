@@ -1,6 +1,6 @@
 [![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/167/9.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-sale-workflow-167)
 [![Build Status](https://travis-ci.org/OCA/sale-workflow.svg?branch=9.0)](https://travis-ci.org/OCA/sale-workflow)
-[![Coverage Status](https://coveralls.io/repos/OCA/sale-workflow/badge.svg?branch=9.0&service=github)](https://coveralls.io/github/OCA/sale-workflow?branch=9.0)
+[![codecov](https://codecov.io/gh/OCA/sale-workflow/branch/9.0/graph/badge.svg)](https://codecov.io/gh/OCA/sale-workflow)
 
 Odoo Sales, Workflow and Organization
 ======================================
@@ -22,6 +22,8 @@ addon | version | summary
 [sale_automatic_workflow_payment_mode](sale_automatic_workflow_payment_mode/) | 9.0.2.0.0 | Sale Automatic Workflow - Payment Mode
 [sale_exception](sale_exception/) | 9.0.1.0.0 | Custom exceptions on sale order
 [sale_order_lot_selection](sale_order_lot_selection/) | 9.0.1.0.0 | Sale Order Lot Selection
+[sale_order_type](sale_order_type/) | 9.0.1.0.0 | Sale Order Types
+[sale_order_variant_mgmt](sale_order_variant_mgmt/) | 9.0.1.0.0 | Handle the addition/removal of multiple variants from product template into the sales order
 [sale_packaging_price](sale_packaging_price/) | 9.0.1.0.0 | Sale Packaging Price
 
 Unported addons
@@ -46,13 +48,11 @@ addon | version | summary
 [sale_jit_on_services](sale_jit_on_services/) | 1.0 (unported) | Sale Service Just In Time
 [sale_last_price_info](sale_last_price_info/) | 8.0.1.0.0 (unported) | Product Last Price Info - Sale
 [sale_multi_picking](sale_multi_picking/) | 0.1 (unported) | Multi Pickings from Sale Orders
-[sale_order_add_variants](sale_order_add_variants/) | 8.0.0.1.0 (unported) | Add variants from template into sale order
 [sale_order_back2draft](sale_order_back2draft/) | 8.0.1.0.0 (unported) | Back to draft on sales orders
 [sale_order_force_number](sale_order_force_number/) | 0.1 (unported) | Force sale orders numeration
 [sale_order_line_description](sale_order_line_description/) | 8.0.1.0.0 (unported) | Sale order line description
 [sale_order_price_recalculation](sale_order_price_recalculation/) | 8.0.1.0.0 (unported) | Price recalculation in sales orders
 [sale_order_revision](sale_order_revision/) | 8.0.0.1.0 (unported) | Sale order revisions
-[sale_order_type](sale_order_type/) | 8.0.1.0.1 (unported) | Sale Order Types
 [sale_owner_stock_sourcing](sale_owner_stock_sourcing/) | 8.0.0.1.0 (unported) | Manage stock ownership on sale order lines
 [sale_partner_order_policy](sale_partner_order_policy/) | 8.0.1.0.0 (unported) | Adds customer create invoice method on partner form
 [sale_payment_term_interest](sale_payment_term_interest/) | 8.0.1.0.0 (unported) | Sales Payment Term Interests
